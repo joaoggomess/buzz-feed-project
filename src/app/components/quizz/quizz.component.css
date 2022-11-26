@@ -1,0 +1,86 @@
+.container.quizz {
+    width: 75%;
+    margin: auto;
+    margin-top: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    width: 75%;
+}
+
+.logo > h3 {
+    font-size: 1.5rem;
+
+    align-self: center;
+    margin-top: 3rem;
+}
+
+.questions {
+    background-color: #644ed2;
+    border-radius: 8px;
+    padding: .8rem;
+    margin-bottom: 1rem;
+
+    font-family: 'Segoe UI', serif;
+    font-size: 1.5rem;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin:auto;
+    margin-bottom: 2rem ;
+}
+
+.btn-option {
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid #18ab29;
+    width: 40%;
+    padding: .5rem;
+    margin: .5rem;
+
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    text-shadow: 0px 1px 0px #2f662f;
+}
+
+.btn-option:hover {
+    background-color: #5cbf2a;
+}
+
+.btn-option:active {
+    position: relative;
+    top: .1rem;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    background-color: #1f0539;
+    align-self: center;
+    width: auto;
+    height: 15rem;
+    padding: 1rem;
+    border-radius: 10px; 
+}
+
+.results h1 {
+    margin:auto;
+}
